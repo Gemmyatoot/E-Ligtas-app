@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+#incidentrep {
+    flex: 2;
+}
+
+#recentassigned {
+    flex: 1;
+}
+
+#news {
+    flex: 2;
+}
+
+#upload {
+    flex: 1;
+}
+
+#reportInfo {
+    height: calc(100vh - 85px);
+    flex: 2;
+    border-right: 2px;
+    border-color: black;
+}
+
+#reportChat {
+    height: calc(100vh - 85px);
+    flex: 1;
+}
+

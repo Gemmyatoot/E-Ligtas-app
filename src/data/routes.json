@@ -1,0 +1,81 @@
+{
+    "users": {
+        "client": {
+            "routes": [
+                {
+                    "name": "My Reports",
+                    "path": "/client/myreport",
+                    "icon": "/icons/dashboard.svg"
+                }
+            ]
+        },
+        "admin": {
+            "routes": [
+                {
+                    "name": "Dashboard",
+                    "path": "/adminmodule/admin",
+                    "icon": "/icons/dashboard.svg"
+                },
+                {
+                    "name": "Assigned Incidents",
+                    "path": "/adminmodule/admin/assigned_incidents",
+                    "icon": "/icons/incident.svg"
+                },
+                {
+                    "name": "Case Profilling",
+                    "path": "/adminmodule/admin/case_profilling",
+                    "icon": "/icons/case_profiling.svg"
+                },
+                {
+                    "name": "Create News",
+                    "path": "/adminmodule/admin/create_news",
+                    "icon": "/icons/news.svg"
+                },
+                {
+                    "name": "Profile",
+                    "path": "/adminmodule/admin/profile",
+                    "icon": "/icons/profile.svg"
+                }
+            ]
+        },
+        "superadmin": {
+            "routes": [
+                {
+                    "name": "Dashboard",
+                    "path": "/adminmodule/superadmin",
+                    "icon": "/icons/dashboard.svg"
+                },
+                {
+                    "name": "Assign Incident",
+                    "path": "/adminmodule/superadmin/assign_incident",
+                    "icon": "/icons/report.svg"
+                },
+                {
+                    "name": "Case Profilling",
+                    "path": "/adminmodule/superadmin/case_profilling",
+                    "icon": "/icons/case_profiling.svg"
+                },
+                {
+                    "name": "Create Admin",
+                    "path": "/adminmodule/superadmin/create_admin",
+                    "icon": "/icons/add_user.svg"
+                }
+                ,
+                {
+                    "name": "Profile",
+                    "path": "/adminmodule/superadmin/profile",
+                    "icon": "/icons/profile.svg"
+                }
+            ]
+        },
+        "barangay": {
+            "routes": [
+                {
+                    "name": "Home",
+                    "path": "/adminmodule/barangay",
+                    "icon": "/icons/dashboard.svg"
+                }
+            ]
+        }
+    }
+}
